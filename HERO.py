@@ -131,7 +131,7 @@ try:
 except Exception as e:
     print(' WELCOME TO RANDOM CLONING SYSTEM')
     
-prox=open('.prox.txt','w').read().splitlines()
+prox=open('.prox.txt','r').read().splitlines()')
 
 
 for xd in range(10000):
